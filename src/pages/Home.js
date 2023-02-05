@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 import ProductCard from '../components/ProductCard';
 
 const Home = () => {
@@ -13,8 +13,8 @@ const Home = () => {
   }, [])
 
   // to use state
-  const state = useSelector((state) => state);
-  console.log(state);
+  // const state = useSelector((state) => state);
+
 
 
   return (
