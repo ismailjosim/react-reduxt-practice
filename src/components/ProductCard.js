@@ -3,7 +3,7 @@ import { BiListPlus, BiTrash } from "react-icons/bi";
 import { useDispatch } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import { addToCart, removeFromCart } from '../redux/actionCreators/productActions';
-import { ADD_TO_CART } from './../redux/actionTypes/actionTypes';
+// import { ADD_TO_CART } from './../redux/actionTypes/actionTypes';
 
 const ProductCard = ({ product }) => {
 
